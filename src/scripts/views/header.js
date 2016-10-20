@@ -9,11 +9,11 @@ define(function(require) {
 		className: 'header-container',
 
 		initialize: function() {
-			//fetch the data from the blab bal
+			this.title = 'Public Projects';
 		},
 
 		render: function() {
-			this.$el.html(this.template());
+			this.$el.html(this.template({pageTitle: this.title}));
 			return this;
 		}
 	});

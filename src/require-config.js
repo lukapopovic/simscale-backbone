@@ -7,8 +7,9 @@ require.config({
 		underscore: 'bower_components/underscore/underscore',
 		jquery: 'bower_components/jquery/dist/jquery',
 		constants: 'scripts/common/constants',
-		App: 'App',
-		ProjectModel: 'scripts/models/ProjectModel'
+		App: 'app',
+		projects: 'scripts/collections/projects',
+		project: 'scripts/models/project'
 	},
 
 	packages: [

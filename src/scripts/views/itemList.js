@@ -3,27 +3,21 @@ define(function(require) {
 
 	var backbone = require('backbone');
 	var itemListTemplate = require('hbs!templates/itemList');
-	var ProjectCollection = require('../collections/ProjectCollection');
+	var ItemView = require('scripts/views/item');
 
 	var ItemList = Backbone.View.extend({
 		template: itemListTemplate,
 		className: 'items-container',
-		collection: null,
 
-		initialize: function() {
-			this.collection = new ProjectCollection();
-			collection.fetch({
-				success: function(collection, response, options) {
-						console.log(collection.toJSON());
-					},
-				error: function(collection, reposnse, options) {
-						console.log(response);
-					} 
-			});
-		},
+		initialize: function() {},
 
 		render: function() {
-			this.$el.html(this.template(this.collection.toJSON()));
+			this.$el.html(this.template());
+			this.$appendElement = this.$el.find('.row');
+			this.collection.each(function(project){
+            	var itemView = new ItemView({model: project});
+            	this.$appendElement.append(itemView.el);
+			}, this);
 			return this;
 		}
 	});
