@@ -1,0 +1,18 @@
+{
+  "name": "simscale-backbone",
+  "version": "1.0.0",
+  "description": "Simscale test case",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server",
+    "sass": "gulp sass"
+  },
+  "author": "Luka Popovic",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "http-server": "^0.9.0"
+  }
+}

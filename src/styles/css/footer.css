@@ -1,0 +1,67 @@
+.footer-container {
+  display: block;
+  min-height: 350px;
+  width: 100%;
+  background-color: #3b3a35; }
+  .footer-container a {
+    color: #ffffff; }
+    .footer-container a:hover, .footer-container a:visited, .footer-container a:active {
+      color: #ffffff;
+      text-decoration: none; }
+  .footer-container footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 40px 50px;
+    line-height: 20px;
+    color: #838384; }
+    .footer-container footer .footer-lists .footer-list {
+      display: inline-block; }
+      .footer-container footer .footer-lists .footer-list .footer-list-title {
+        font-size: 14px;
+        color: #ffffff; }
+    .footer-container footer .social i {
+      display: inline-block;
+      width: 25px;
+      height: 30px; }
+    .footer-container footer .social .social-icons {
+      display: block; }
+      .footer-container footer .social .social-icons span {
+        display: inline-block;
+        padding: 5px; }
+      .footer-container footer .social .social-icons .xing {
+        background: url(../../assets/x.png) no-repeat; }
+      .footer-container footer .social .social-icons .linkedin {
+        background: url(../../assets/l.png) no-repeat; }
+      .footer-container footer .social .social-icons .twitter {
+        background: url(../../assets/t.png) no-repeat; }
+      .footer-container footer .social .social-icons .facebook {
+        width: 15px;
+        background: url(../../assets/f.png) no-repeat; }
+      .footer-container footer .social .social-icons .googleplus {
+        width: 30px;
+        background: url(../../assets/g.png) no-repeat; }
+      .footer-container footer .social .social-icons .youtube {
+        width: 38px;
+        background: url(../../assets/y.png) no-repeat; }
+      .footer-container footer .social .social-icons .rss {
+        width: 28px;
+        background: url(../../assets/rss.png) no-repeat; }
+    .footer-container footer .social .stars span {
+      padding-right: 10px; }
+    .footer-container footer .social .stars .paperli, .footer-container footer .social .stars .slideshare {
+      position: relative;
+      top: 8px;
+      width: 25px;
+      height: 25px;
+      background: url(../../assets/star.png) no-repeat; }
+    .footer-container footer .social .newsletter-field {
+      padding: 10px 0; }
+      .footer-container footer .social .newsletter-field input {
+        height: 30px;
+        width: calc(100% - 100px); }
+    .footer-container footer .social .sign-up {
+      background-color: #0077a9;
+      border: none;
+      padding: 5px 24px;
+      color: #ffffff; }
