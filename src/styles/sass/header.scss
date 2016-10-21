@@ -22,16 +22,26 @@
                     li {
                         padding: 15px;
                         display: inline-block;
+
+                        a {
+                            color: #337ab7;
+                            &:hover, &:visited, &:active {
+                                color: #337ab7;
+                                text-decoration: none;
+                            }
+                        }
                     }
                 }
                 
             }
+
             .user-data {
                 display: block;
                 padding: 8px 0;
                 .username {
                     display: inline-block;
                 }
+
                 .user-picture {
                     display: inline-block;
                     img {
@@ -86,11 +96,11 @@
             float: left !important;
         }    
     }
+
     .global-bar {
         .page-title {
             text-align: center;
             padding-bottom: 10px;
         }
     }
-    
 }

@@ -18,6 +18,11 @@
         .header-container .main-header header nav ul li {
           padding: 15px;
           display: inline-block; }
+          .header-container .main-header header nav ul li a {
+            color: #337ab7; }
+            .header-container .main-header header nav ul li a:hover, .header-container .main-header header nav ul li a:visited, .header-container .main-header header nav ul li a:active {
+              color: #337ab7;
+              text-decoration: none; }
     .header-container .main-header header .user-data {
       display: block;
       padding: 8px 0; }
