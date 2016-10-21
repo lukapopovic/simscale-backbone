@@ -6,14 +6,12 @@ body {
   font-family: verdana;
   font-size: 12px;
   line-height: 16px; }
-
-ul {
-  list-style: none;
-  padding: 0; }
-
-h1 {
-  margin: 0;
-  padding: 0; }
+  body ul {
+    list-style: none;
+    padding: 0; }
+  body h1 {
+    margin: 0;
+    padding: 0; }
 
 .header-container .main-header {
   display: block;
